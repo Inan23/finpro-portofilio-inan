@@ -1,0 +1,224 @@
+body{
+    background-color: #AAAE75;
+}
+.bg-green{
+    background: #618E3C;
+}
+.portfolio {
+    text-align: center;
+    padding: 40px;
+}
+.navbar{
+    height: 90px;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+.navbar-brand{
+    font-style: oblique;
+    font-size: large;
+    color: #D5D1AA;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header {
+    position: relative;
+}
+.nav-link{
+    color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    margin-top: 10%;
+}
+.aboutme{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.me{
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 700px;
+    background: #D5D1AA;
+    padding: 20px;  
+}
+.img{
+    border-radius: 50px;
+}
+.aboutsection p{
+    text-align: center;
+}
+.aboutsection h1{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.row{
+    justify-content: center;
+}
+.rows{
+    display: flex;
+}
+.card{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.mb-5{
+    margin-top: 100px;
+    text-align: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'quicksand', sans-serif;
+}
+.teamsection{
+    overflow: hidden;
+    text-align: center;
+    background: #D5D1AA;
+    padding: 60px;
+}
+.border{
+    display: block;
+    margin: auto;
+    width: 160px;
+    height: 3px;
+    background: #476b2a;
+    margin-bottom: 40px;
+}
+.ps{
+    margin-bottom: 40px;
+}
+.ps a{
+    display: inline-block;
+    margin: 0 30px;
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 100px;
+}
+.ps a img{
+    width: 100%;
+    filter: grayscale(100%);
+    transition: 0.4s all;
+}
+.ps a:hover >img{
+    filter: none;
+}
+.section{
+    width: 600px;
+    margin: auto;
+    font-size: 20px;
+    color: black;
+    height: 0;
+    overflow: hidden;
+}
+.section:target{
+    height: auto;
+}
+.name{
+    display: block;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 100px;
+}
+.container:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.contact-box{
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+}
+.left{
+    height: 100%;
+    background: url(../image/contactus.png) no-repeat center;
+    background-size: cover;
+}
+.right{
+    padding: 25px 40px;
+}
+h2{
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+h2:after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #2ecc71;
+}
+
+.field{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-color: rgba(230, 230, 230, 0.6);
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+}
+.field:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.field:focus{
+    background-color: #fff;
+    border: 2px solid rgba(30, 85, 250, 0.47)
+}
+.area{
+    min-height: 150px;
+}
+.btn{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    background-color: #618E3C;
+    cursor: pointer;
+    cursor: crosshairS;
+    outline: none;
+    border: none;
+    color: #fff;
+    transition: .3s;
+}
+.btn:hover{
+    background-color: #476b2a;
+}
